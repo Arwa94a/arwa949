@@ -1,0 +1,714 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+    }
+    .container{
+        max-width: 1100px;
+        padding: 0 35px;
+        margin: auto;
+    
+    }
+   
+    ul{
+    list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    /* navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 100px;
+    width: 100%;
+   position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: lightblue;
+    border-radius: 0px 40px 40px 0px;
+    z-index: 3;
+
+    
+    }
+    .navbar a{
+        padding-bottom: 2px;
+        font-weight: bold;
+       
+    }
+    .navbar a:hover{
+        border-bottom: 2px solid black;
+    }
+    .navbar-2  {
+       display: flex;
+     gap: 40px;
+     padding-right: 800px;
+     padding-top: 40px;
+     
+
+    }
+    .navbar img{
+        
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+    .right-menu ul{
+        display: flex;
+        gap: 20px;
+        padding-right: 50px;
+        padding-top: 40px;
+        
+       
+    }
+    /* Home*/
+    .wellcome{
+        padding-top: 50px;
+    }
+.wellcome h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px;
+    color: lightsalmon;
+  }
+  .wellcome p {
+    font-size: 30px;
+    text-align: justify;
+    padding: 30px;
+    margin: 30px;
+    font-family: cursive;
+  }
+  .btn-home{
+    display: inline-block;
+    background-color: rgb(196, 142, 142);
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 20%;
+    opacity: 0.5;
+
+  }
+ 
+  .btn-home:hover{
+    opacity: 1;
+  }
+
+  /*section*/
+  .math{
+      display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    text-align: center;
+    padding: 50px;
+line-height: 50px;
+padding-top: 30px;
+  }
+  .math button{
+      border-radius: 30px;
+      height: 50px;
+      width: 100px;
+     
+  }
+
+  .math1 h2{
+      font-family: serif;
+      color: rgb(70, 172, 116);
+      
+  }
+  .math p{
+      padding: 20px;
+      font-family: monospace;
+  }
+  .math img:hover{
+transform:rotate(30deg);
+transition: .5s;
+  }
+  .ourLife h2{
+    font-family: serif;
+      color: rgb(105, 62, 98);
+  }
+  .laws h2{
+    font-family: serif;
+      color: rgb(46, 82, 122);
+  }
+  
+  /*follow*/
+  .follow a img{
+      height: 50px;
+      width: 50px;
+      transition: 1s;
+    position: relative;
+    top:0;
+    
+  }
+  .follow{
+      display: flex;
+      gap: 30px;
+     padding-bottom: 0;
+  }
+  .follow p{
+      padding-left: 10px;
+      padding-top: 7px;
+      font-size: large;
+      font-weight: bold;
+  }
+  .follow a img:hover{
+    border-bottom: 4px solid black;
+      top: -20px;
+      opacity: 0.7;
+  }
+  /*let's learn*/
+  .rowElement{
+   
+      display: flex;
+      margin: 50px;
+      padding: 50px;
+      justify-content: space-between;
+      align-content: space-between;
+      text-align: center;
+background-color: rgb(176, 207, 190);
+
+border-radius: 20px ;
+      
+  }
+  .rowElement img{
+     
+    height: 200px;
+    width: 200px;
+    border-radius: 50px 0;
+    transition: 1s;
+    position: relative;
+    top:0;
+  
+  }
+  .rowElement img:hover{
+    top: -20px;
+  }
+  .learn1{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+     
+  }
+  .learn1 img{
+      padding-top: 120px;
+     
+    height: 300px;
+    width: 300px;
+   
+  }
+  .num p{
+      color: white;
+     
+  }
+  .plus p{
+      color: white;
+  }
+  .negative p{
+      color: white;
+  }
+  .abc p{
+    font-weight: bolder;
+      line-height: 50px;
+  }
+  .abc h4{
+      border:2px solid black;
+      border-radius: 50px;
+      width: 80px;
+  }
+  
+
+  /***mathematicians***/
+  .scientist1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 100px;
+  }
+  .scientist{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      text-align: center;
+    padding: 80px;
+    margin: 80px;
+    gap: 100px;
+    
+  }
+ 
+  .scientist p{
+      padding: 50px;
+      line-height: 30px;
+      text-align: justify;
+  }
+  .scientist img{
+      padding-top: 20px;
+      padding-bottom: 0px;
+      height: 200px;
+      width: 200px;
+      border-radius: 40%;
+      opacity: 0.7;
+     
+    
+  }
+  .scientist img:hover{
+      opacity: 1;
+  }
+.james{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.james h1{
+    color: brown;
+}
+.james p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.alan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+.alan h1{
+    color:green ;
+}
+.alan p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pierre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pierre h1{
+    color: blue;
+}
+.pierre p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Thomas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Thomas h1{
+    color: coral;
+}
+.Thomas p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.charles h1{
+    color: rgb(75, 40, 57);
+}
+.charles p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ada h1{
+    color: cornflowerblue;
+}
+.ada p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/***********our life**********/
+.routine1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-left: 50px;
+    padding-top: 110px;
+   
+}
+.routine1 img{
+margin: auto;
+height: 200px;
+width: 400px;
+
+}
+.routine img:hover{
+    transform: rotateX(30deg);
+    opacity: 0.6;
+}
+
+.routine{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+    text-align: center;
+  padding:0 200px;
+  margin: 200px 0;
+  gap: 100px;
+  text-align: justify;
+}
+.routine h1{
+    color: crimson;
+    font-family: monospace;
+}
+.routine p{
+    font-weight: bolder;
+}
+.routine img{
+    
+    height: 200px;
+    width: 200px;
+   
+   
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.cost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.sport{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.drive{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.Critical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.Cooking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+/*********law*******/
+.law1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-left: 50px;
+    padding-top: 110px;
+    text-align: center;
+    gap: 40px;
+}
+.law1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(42, 42, 202);
+    font-size: 50px;
+}
+.law1 h4{
+    color: darkslategray;
+    font-size: 35px;
+}
+.law1 p{
+    font-weight: bolder;
+}
+.law1 h5{
+    color: rgb(119, 63, 63);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/*********Account****/
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-top: 0%;
+    padding-left: 290px;
+    padding-right: 250px;
+    padding-bottom: 150px;
+    margin: 150px;
+    text-align: center;
+    width: 100vh;
+}
+label{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: rgb(161, 64, 28);
+    
+}
+input{
+    font-weight: bolder;
+    border-radius: 40px;
+}
+option{
+    font-weight: bolder;
+    
+}
+select{
+    font-weight: bolder;
+    border-radius: 40px;
+}
+
+/*******numbers***********/
+.numbers1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-left: 110px;
+    padding-top: 110px;
+    gap: 20px;
+   
+}
+.numbers1 p{
+    text-align: center;
+}
+.numbers1 h1{
+    text-align: center;
+    border: 2px solid black ;
+   height: 50px;
+   width: 50px;
+  border-radius: 50%;
+   margin: auto;
+   background-color: black;
+ 
+}
+.numbers1 h1:hover{
+    background-color: white;
+}
+.numbers1 h2{
+    text-align: center;
+    color: rgb(189, 129, 39);
+}
+.numbers1 img{
+    height: 100px;
+    width: 100px;
+    transition: 1s;
+    position: relative;
+    top:0;
+
+   
+  
+}
+.picnum:hover{
+  top: -15px;
+ 
+ 
+}
+.numbers{
+    padding-top: 100px;
+    display: flex;
+    width: 400px;
+   height: 200px;
+  
+   margin: auto;
+   text-align: center;
+}
+.see{
+    font-size: 30px;
+    font-family: monospace;
+    color: rgb(25, 69, 83);
+    
+}
+/******Plus********/
+.animals{
+    display: flex;
+    flex-direction: column;
+padding-top: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: large;
+
+}
+.font{
+    text-align: center;
+}
+.font h2{
+    color: green;
+}
+.add-btn{
+    border-radius: 30px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(138, 179, 212);
+    font-size: 30px;
+}
+.add-btn:hover{
+    background-color: rgb(11, 55, 85);
+    color: white;
+}
+.animal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+   
+}
+.animals p{
+    display: none;
+}
+.font .total span{
+    font-size: 60px;
+    color: indigo;
+}
+.font .total{
+    font-size: 50px;
+    color: lightcoral;
+}
+
+/*****negative******/
+
+.negative1{
+ padding: 100px;
+ margin: 100px;
+ text-align: justify;
+}
+.negative1 a{
+    
+padding-left: 350px;
+width: 10px;
+font-size: 50px;
+color: rgb(87, 70, 39);
+
+}
+.negative1 img{
+width: 1000px;
+}
+.negative1 p{
+    font-family: monospace;
+    font-size: 30px;
+}
+@media(max-width:800px){
+    .navbar{
+    
+        font-size: 12px;
+    }
+    ul .navbar-2 {
+        padding: 0;
+    }
+    .wellcome h1 {
+       font-size: 30px;
+       padding: 0;
+    }
+    .wellcome p{
+        padding: 0;
+        font-size: 20px;
+    }
+.math{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.scientist{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    
+}
+.scientist p{
+    padding: 0;
+}
+.routine1 img{
+  
+    height: 100px;
+    width: 200px;
+    
+    }
+    .numbers1{
+        padding-left: 20px;
+    }
+   
+    .routine{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+    .law1{
+        padding:10px;
+        font-size: 20px;
+    }
+    .follow a img{
+        height: 20px;
+        width: 20px;
+     
+    
+    }
+    .follow p{
+       
+        font-size: 10px;
+       
+    }
+   
+    .rowElement{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        
+    }
+    .negative1{
+        padding-top: 0%;
+        margin: 0%;
+       
+    }
+    div.negative1 {
+        padding: 0;
+    }
+    .negative1 p{
+    
+     padding-right: 100px;
+     padding-left: 10px;
+        font-size: 20px;
+      
+    }
+    .negative1 img{
+        padding-bottom: 0%;
+        padding-top: 200px;
+        margin: auto;
+        width: 350px;
+
+       
+    }
+    .negative1 a{
+        font-size: 20px;
+        padding-left: 0ch;
+    }
+    .form{
+        padding: 0%;
+        padding-left: 10px;
+        padding-top: 150px;
+        margin: 0%;
+        width: 20vh;
+    }
+.numbers {
+    width: 200px;
+    padding-top: 160px;
+}
+
+}
